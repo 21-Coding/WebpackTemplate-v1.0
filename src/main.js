@@ -1,6 +1,6 @@
 // user interface (imports)
 $(document).ready(function(){
-  $("form#generator").submit(function(){
+  $("form#generator").submit(function(event){
     event.preventDefault()
     var number1 = parseInt($("#side1").val());
     var number2 = parseInt($("#side2").val());
